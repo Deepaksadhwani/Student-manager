@@ -16,7 +16,7 @@ const DisplayDetail = () => {
   }, [userName, number, addres]);
 
   const handleEdit = (index) => {
-    console.log(index);
+    handleDelete(index)
     setModalVisible(true);
   };
 
