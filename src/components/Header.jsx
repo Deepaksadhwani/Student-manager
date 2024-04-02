@@ -17,7 +17,7 @@ const Header = () => {
       </h3>
       <button
         onClick={userEnteryDataHandler}
-        className="mt-4 w-1/6 rounded bg-lime-600 px-4 py-2 font-bold  text-white hover:bg-teal-600"
+        className="mt-4 md:w-1/6 rounded bg-lime-600 px-4 py-2 font-bold  text-white hover:bg-teal-600"
       >
         ADD NEW STUDENT
       </button>
